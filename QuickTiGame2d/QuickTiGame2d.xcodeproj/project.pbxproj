@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F92DA7A71509F14500E11285 /* QuickTiGame2dMapSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = F92DA7A61509F14500E11285 /* QuickTiGame2dMapSprite.m */; };
+		F93085E214DD243400F6BFA5 /* ArrayStackQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F93085E114DD243400F6BFA5 /* ArrayStackQueue.m */; };
+		F96E406D14ECC1AA00100865 /* magic.pex in Resources */ = {isa = PBXBuildFile; fileRef = F96E406C14ECC1AA00100865 /* magic.pex */; };
+		F9A6A1CB14EC78800077D8A1 /* QuickTiGame2dParticles.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A6A1CA14EC78800077D8A1 /* QuickTiGame2dParticles.m */; };
+		F9A6A1D014EC877B0077D8A1 /* ParticleDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A6A1CF14EC877B0077D8A1 /* ParticleDataReader.m */; };
+		F9A9F43E149F285E00BCA6A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A9F43D149F285E00BCA6A8 /* UIKit.framework */; };
+		F9A9F440149F285E00BCA6A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A9F43F149F285E00BCA6A8 /* Foundation.framework */; };
+		F9A9F442149F285E00BCA6A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A9F441149F285E00BCA6A8 /* CoreGraphics.framework */; };
+		F9A9F448149F285E00BCA6A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9A9F446149F285E00BCA6A8 /* InfoPlist.strings */; };
+		F9A9F44A149F285E00BCA6A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A9F449149F285E00BCA6A8 /* main.m */; };
+		F9A9F44E149F285E00BCA6A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A9F44D149F285E00BCA6A8 /* AppDelegate.m */; };
+		F9BADC3B14DA153F00B7545C /* QuickTiGame2dTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BADC3A14DA153F00B7545C /* QuickTiGame2dTransform.m */; };
+		F9E0DA32155751FA00AF8951 /* QuickTiGame2dTextSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E0DA31155751FA00AF8951 /* QuickTiGame2dTextSprite.m */; };
+		F9E360C214A06839006645B3 /* QuickTiGame2dAnimationFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E360C114A06839006645B3 /* QuickTiGame2dAnimationFrame.m */; };
+		F9EDD7D4149F29F200AD6F6D /* QuickTiGame2dEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EDD7C5149F29F200AD6F6D /* QuickTiGame2dEngine.m */; };
+		F9EDD7D5149F29F200AD6F6D /* QuickTiGame2dScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EDD7C7149F29F200AD6F6D /* QuickTiGame2dScene.m */; };
+		F9EDD7D6149F29F200AD6F6D /* QuickTiGame2dSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EDD7C9149F29F200AD6F6D /* QuickTiGame2dSprite.m */; };
+		F9EDD7D7149F29F200AD6F6D /* QuickTiGame2dTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EDD7CB149F29F200AD6F6D /* QuickTiGame2dTexture.m */; };
+		F9EDD7D8149F29F200AD6F6D /* QuickTiGame2dUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EDD7CD149F29F200AD6F6D /* QuickTiGame2dUtil.m */; };
+		F9EDD7D9149F29F200AD6F6D /* QuickTiGame2dView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EDD7CF149F29F200AD6F6D /* QuickTiGame2dView.m */; };
+		F9EDD7DA149F29F200AD6F6D /* QuickTiGame2dViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9EDD7D1149F29F200AD6F6D /* QuickTiGame2dViewController.m */; };
+		F9EDD7DD149F2CF200AD6F6D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EDD7DC149F2CF200AD6F6D /* OpenGLES.framework */; };
+		F9EDD7DF149F2D0300AD6F6D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EDD7DE149F2D0300AD6F6D /* QuartzCore.framework */; };
+		F9EDD7E1149F2D0A00AD6F6D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EDD7E0149F2D0A00AD6F6D /* libz.dylib */; };
+		F9EDD7E7149F2D5C00AD6F6D /* control_base.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EDD7E3149F2D5C00AD6F6D /* control_base.png */; };
+		F9EDD7E8149F2D5C00AD6F6D /* control_button_A.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EDD7E4149F2D5C00AD6F6D /* control_button_A.png */; };
+		F9EDD7E9149F2D5C00AD6F6D /* control_button_B.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EDD7E5149F2D5C00AD6F6D /* control_button_B.png */; };
+		F9EDD7EA149F2D5C00AD6F6D /* control_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = F9EDD7E6149F2D5C00AD6F6D /* control_knob.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F92DA7A51509F14500E11285 /* QuickTiGame2dMapSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickTiGame2dMapSprite.h; sourceTree = "<group>"; };
+		F92DA7A61509F14500E11285 /* QuickTiGame2dMapSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickTiGame2dMapSprite.m; sourceTree = "<group>"; };
+		F93085E014DD243400F6BFA5 /* ArrayStackQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayStackQueue.h; sourceTree = "<group>"; };
+		F93085E114DD243400F6BFA5 /* ArrayStackQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayStackQueue.m; sourceTree = "<group>"; };
+		F96E406C14ECC1AA00100865 /* magic.pex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = magic.pex; sourceTree = "<group>"; };
+		F9A6A1C714EC78490077D8A1 /* QuickTiGame2dParticlesTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickTiGame2dParticlesTypes.h; sourceTree = "<group>"; };
+		F9A6A1C914EC78800077D8A1 /* QuickTiGame2dParticles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickTiGame2dParticles.h; sourceTree = "<group>"; };
+		F9A6A1CA14EC78800077D8A1 /* QuickTiGame2dParticles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickTiGame2dParticles.m; sourceTree = "<group>"; };
+		F9A6A1CE14EC877B0077D8A1 /* ParticleDataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleDataReader.h; sourceTree = "<group>"; };
+		F9A6A1CF14EC877B0077D8A1 /* ParticleDataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleDataReader.m; sourceTree = "<group>"; };
+		F9A9F439149F285E00BCA6A8 /* QuickTiGame2d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickTiGame2d.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A9F43D149F285E00BCA6A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9A9F43F149F285E00BCA6A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9A9F441149F285E00BCA6A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F9A9F445149F285E00BCA6A8 /* QuickTiGame2d-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickTiGame2d-Info.plist"; sourceTree = "<group>"; };
+		F9A9F447149F285E00BCA6A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9A9F449149F285E00BCA6A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9A9F44B149F285E00BCA6A8 /* QuickTiGame2d-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickTiGame2d-Prefix.pch"; sourceTree = "<group>"; };
+		F9A9F44C149F285E00BCA6A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9A9F44D149F285E00BCA6A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9BADC3914DA153F00B7545C /* QuickTiGame2dTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickTiGame2dTransform.h; sourceTree = "<group>"; };
+		F9BADC3A14DA153F00B7545C /* QuickTiGame2dTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickTiGame2dTransform.m; sourceTree = "<group>"; };
+		F9E0DA30155751FA00AF8951 /* QuickTiGame2dTextSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickTiGame2dTextSprite.h; sourceTree = "<group>"; };
+		F9E0DA31155751FA00AF8951 /* QuickTiGame2dTextSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickTiGame2dTextSprite.m; sourceTree = "<group>"; };
+		F9E360C014A06839006645B3 /* QuickTiGame2dAnimationFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickTiGame2dAnimationFrame.h; sourceTree = "<group>"; };
+		F9E360C114A06839006645B3 /* QuickTiGame2dAnimationFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickTiGame2dAnimationFrame.m; sourceTree = "<group>"; };
+		F9EDD7C3149F29F200AD6F6D /* QuickTiGame2dConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickTiGame2dConstant.h; sourceTree = "<group>"; };
+		F9EDD7C4149F29F200AD6F6D /* QuickTiGame2dEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickTiGame2dEngine.h; sourceTree = "<group>"; };
+		F9EDD7C5149F29F200AD6F6D /* QuickTiGame2dEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickTiGame2dEngine.m; sourceTree = "<group>"; };
+		F9EDD7C6149F29F200AD6F6D /* QuickTiGame2dScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickTiGame2dScene.h; sourceTree = "<group>"; };
+		F9EDD7C7149F29F200AD6F6D /* QuickTiGame2dScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickTiGame2dScene.m; sourceTree = "<group>"; };
+		F9EDD7C8149F29F200AD6F6D /* QuickTiGame2dSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickTiGame2dSprite.h; sourceTree = "<group>"; };
+		F9EDD7C9149F29F200AD6F6D /* QuickTiGame2dSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickTiGame2dSprite.m; sourceTree = "<group>"; };
+		F9EDD7CA149F29F200AD6F6D /* QuickTiGame2dTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickTiGame2dTexture.h; sourceTree = "<group>"; };
+		F9EDD7CB149F29F200AD6F6D /* QuickTiGame2dTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickTiGame2dTexture.m; sourceTree = "<group>"; };
+		F9EDD7CC149F29F200AD6F6D /* QuickTiGame2dUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickTiGame2dUtil.h; sourceTree = "<group>"; };
+		F9EDD7CD149F29F200AD6F6D /* QuickTiGame2dUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickTiGame2dUtil.m; sourceTree = "<group>"; };
+		F9EDD7CE149F29F200AD6F6D /* QuickTiGame2dView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickTiGame2dView.h; sourceTree = "<group>"; };
+		F9EDD7CF149F29F200AD6F6D /* QuickTiGame2dView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickTiGame2dView.m; sourceTree = "<group>"; };
+		F9EDD7D0149F29F200AD6F6D /* QuickTiGame2dViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickTiGame2dViewController.h; sourceTree = "<group>"; };
+		F9EDD7D1149F29F200AD6F6D /* QuickTiGame2dViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickTiGame2dViewController.m; sourceTree = "<group>"; };
+		F9EDD7DC149F2CF200AD6F6D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F9EDD7DE149F2D0300AD6F6D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F9EDD7E0149F2D0A00AD6F6D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F9EDD7E3149F2D5C00AD6F6D /* control_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = control_base.png; sourceTree = "<group>"; };
+		F9EDD7E4149F2D5C00AD6F6D /* control_button_A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = control_button_A.png; sourceTree = "<group>"; };
+		F9EDD7E5149F2D5C00AD6F6D /* control_button_B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = control_button_B.png; sourceTree = "<group>"; };
+		F9EDD7E6149F2D5C00AD6F6D /* control_knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = control_knob.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9A9F436149F285E00BCA6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EDD7E1149F2D0A00AD6F6D /* libz.dylib in Frameworks */,
+				F9EDD7DF149F2D0300AD6F6D /* QuartzCore.framework in Frameworks */,
+				F9EDD7DD149F2CF200AD6F6D /* OpenGLES.framework in Frameworks */,
+				F9A9F43E149F285E00BCA6A8 /* UIKit.framework in Frameworks */,
+				F9A9F440149F285E00BCA6A8 /* Foundation.framework in Frameworks */,
+				F9A9F442149F285E00BCA6A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9A6A1D114EC8D190077D8A1 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F93085E014DD243400F6BFA5 /* ArrayStackQueue.h */,
+				F93085E114DD243400F6BFA5 /* ArrayStackQueue.m */,
+				F9A6A1CE14EC877B0077D8A1 /* ParticleDataReader.h */,
+				F9A6A1CF14EC877B0077D8A1 /* ParticleDataReader.m */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		F9A9F42E149F285E00BCA6A8 = {
+			isa = PBXGroup;
+			children = (
+				F9EDD7E2149F2D5C00AD6F6D /* Resources */,
+				F9A9F443149F285E00BCA6A8 /* QuickTiGame2d */,
+				F9A9F43C149F285E00BCA6A8 /* Frameworks */,
+				F9A9F43A149F285E00BCA6A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9A9F43A149F285E00BCA6A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9A9F439149F285E00BCA6A8 /* QuickTiGame2d.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9A9F43C149F285E00BCA6A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9EDD7E0149F2D0A00AD6F6D /* libz.dylib */,
+				F9EDD7DE149F2D0300AD6F6D /* QuartzCore.framework */,
+				F9EDD7DC149F2CF200AD6F6D /* OpenGLES.framework */,
+				F9A9F43D149F285E00BCA6A8 /* UIKit.framework */,
+				F9A9F43F149F285E00BCA6A8 /* Foundation.framework */,
+				F9A9F441149F285E00BCA6A8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9A9F443149F285E00BCA6A8 /* QuickTiGame2d */ = {
+			isa = PBXGroup;
+			children = (
+				F9A6A1D114EC8D190077D8A1 /* utilities */,
+				F9EDD7C3149F29F200AD6F6D /* QuickTiGame2dConstant.h */,
+				F9EDD7C4149F29F200AD6F6D /* QuickTiGame2dEngine.h */,
+				F9EDD7C5149F29F200AD6F6D /* QuickTiGame2dEngine.m */,
+				F9EDD7C6149F29F200AD6F6D /* QuickTiGame2dScene.h */,
+				F9EDD7C7149F29F200AD6F6D /* QuickTiGame2dScene.m */,
+				F9EDD7C8149F29F200AD6F6D /* QuickTiGame2dSprite.h */,
+				F9EDD7C9149F29F200AD6F6D /* QuickTiGame2dSprite.m */,
+				F9EDD7CA149F29F200AD6F6D /* QuickTiGame2dTexture.h */,
+				F9EDD7CB149F29F200AD6F6D /* QuickTiGame2dTexture.m */,
+				F9EDD7CC149F29F200AD6F6D /* QuickTiGame2dUtil.h */,
+				F9EDD7CD149F29F200AD6F6D /* QuickTiGame2dUtil.m */,
+				F9EDD7CE149F29F200AD6F6D /* QuickTiGame2dView.h */,
+				F9EDD7CF149F29F200AD6F6D /* QuickTiGame2dView.m */,
+				F9EDD7D0149F29F200AD6F6D /* QuickTiGame2dViewController.h */,
+				F9EDD7D1149F29F200AD6F6D /* QuickTiGame2dViewController.m */,
+				F9E360C014A06839006645B3 /* QuickTiGame2dAnimationFrame.h */,
+				F9E360C114A06839006645B3 /* QuickTiGame2dAnimationFrame.m */,
+				F9BADC3914DA153F00B7545C /* QuickTiGame2dTransform.h */,
+				F9BADC3A14DA153F00B7545C /* QuickTiGame2dTransform.m */,
+				F9A6A1C914EC78800077D8A1 /* QuickTiGame2dParticles.h */,
+				F9A6A1CA14EC78800077D8A1 /* QuickTiGame2dParticles.m */,
+				F9A6A1C714EC78490077D8A1 /* QuickTiGame2dParticlesTypes.h */,
+				F92DA7A51509F14500E11285 /* QuickTiGame2dMapSprite.h */,
+				F92DA7A61509F14500E11285 /* QuickTiGame2dMapSprite.m */,
+				F9E0DA30155751FA00AF8951 /* QuickTiGame2dTextSprite.h */,
+				F9E0DA31155751FA00AF8951 /* QuickTiGame2dTextSprite.m */,
+				F9A9F44C149F285E00BCA6A8 /* AppDelegate.h */,
+				F9A9F44D149F285E00BCA6A8 /* AppDelegate.m */,
+				F9A9F444149F285E00BCA6A8 /* Supporting Files */,
+			);
+			path = QuickTiGame2d;
+			sourceTree = "<group>";
+		};
+		F9A9F444149F285E00BCA6A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9A9F445149F285E00BCA6A8 /* QuickTiGame2d-Info.plist */,
+				F9A9F446149F285E00BCA6A8 /* InfoPlist.strings */,
+				F9A9F449149F285E00BCA6A8 /* main.m */,
+				F9A9F44B149F285E00BCA6A8 /* QuickTiGame2d-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9EDD7E2149F2D5C00AD6F6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F96E406C14ECC1AA00100865 /* magic.pex */,
+				F9EDD7E3149F2D5C00AD6F6D /* control_base.png */,
+				F9EDD7E4149F2D5C00AD6F6D /* control_button_A.png */,
+				F9EDD7E5149F2D5C00AD6F6D /* control_button_B.png */,
+				F9EDD7E6149F2D5C00AD6F6D /* control_knob.png */,
+			);
+			name = Resources;
+			path = QuickTiGame2d/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9A9F438149F285E00BCA6A8 /* QuickTiGame2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9A9F451149F285E00BCA6A8 /* Build configuration list for PBXNativeTarget "QuickTiGame2d" */;
+			buildPhases = (
+				F9A9F435149F285E00BCA6A8 /* Sources */,
+				F9A9F436149F285E00BCA6A8 /* Frameworks */,
+				F9A9F437149F285E00BCA6A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickTiGame2d;
+			productName = QuickTiGame2d;
+			productReference = F9A9F439149F285E00BCA6A8 /* QuickTiGame2d.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9A9F430149F285E00BCA6A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "QuickTiGame2d Project";
+			};
+			buildConfigurationList = F9A9F433149F285E00BCA6A8 /* Build configuration list for PBXProject "QuickTiGame2d" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9A9F42E149F285E00BCA6A8;
+			productRefGroup = F9A9F43A149F285E00BCA6A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9A9F438149F285E00BCA6A8 /* QuickTiGame2d */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9A9F437149F285E00BCA6A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A9F448149F285E00BCA6A8 /* InfoPlist.strings in Resources */,
+				F9EDD7E7149F2D5C00AD6F6D /* control_base.png in Resources */,
+				F9EDD7E8149F2D5C00AD6F6D /* control_button_A.png in Resources */,
+				F9EDD7E9149F2D5C00AD6F6D /* control_button_B.png in Resources */,
+				F9EDD7EA149F2D5C00AD6F6D /* control_knob.png in Resources */,
+				F96E406D14ECC1AA00100865 /* magic.pex in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9A9F435149F285E00BCA6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A9F44A149F285E00BCA6A8 /* main.m in Sources */,
+				F9A9F44E149F285E00BCA6A8 /* AppDelegate.m in Sources */,
+				F9EDD7D4149F29F200AD6F6D /* QuickTiGame2dEngine.m in Sources */,
+				F9EDD7D5149F29F200AD6F6D /* QuickTiGame2dScene.m in Sources */,
+				F9EDD7D6149F29F200AD6F6D /* QuickTiGame2dSprite.m in Sources */,
+				F9EDD7D7149F29F200AD6F6D /* QuickTiGame2dTexture.m in Sources */,
+				F9EDD7D8149F29F200AD6F6D /* QuickTiGame2dUtil.m in Sources */,
+				F9EDD7D9149F29F200AD6F6D /* QuickTiGame2dView.m in Sources */,
+				F9EDD7DA149F29F200AD6F6D /* QuickTiGame2dViewController.m in Sources */,
+				F9E360C214A06839006645B3 /* QuickTiGame2dAnimationFrame.m in Sources */,
+				F9BADC3B14DA153F00B7545C /* QuickTiGame2dTransform.m in Sources */,
+				F93085E214DD243400F6BFA5 /* ArrayStackQueue.m in Sources */,
+				F9A6A1CB14EC78800077D8A1 /* QuickTiGame2dParticles.m in Sources */,
+				F9A6A1D014EC877B0077D8A1 /* ParticleDataReader.m in Sources */,
+				F92DA7A71509F14500E11285 /* QuickTiGame2dMapSprite.m in Sources */,
+				F9E0DA32155751FA00AF8951 /* QuickTiGame2dTextSprite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9A9F446149F285E00BCA6A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9A9F447149F285E00BCA6A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9A9F44F149F285E00BCA6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9A9F450149F285E00BCA6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9A9F452149F285E00BCA6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickTiGame2d/QuickTiGame2d-Prefix.pch";
+				INFOPLIST_FILE = "QuickTiGame2d/QuickTiGame2d-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F9A9F453149F285E00BCA6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickTiGame2d/QuickTiGame2d-Prefix.pch";
+				INFOPLIST_FILE = "QuickTiGame2d/QuickTiGame2d-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F9E2A36414ABF08A00936F36 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		F9E2A36514ABF08A00936F36 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickTiGame2d/QuickTiGame2d-Prefix.pch";
+				INFOPLIST_FILE = "QuickTiGame2d/QuickTiGame2d-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9A9F433149F285E00BCA6A8 /* Build configuration list for PBXProject "QuickTiGame2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A9F44F149F285E00BCA6A8 /* Debug */,
+				F9A9F450149F285E00BCA6A8 /* Release */,
+				F9E2A36414ABF08A00936F36 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9A9F451149F285E00BCA6A8 /* Build configuration list for PBXNativeTarget "QuickTiGame2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9A9F452149F285E00BCA6A8 /* Debug */,
+				F9A9F453149F285E00BCA6A8 /* Release */,
+				F9E2A36514ABF08A00936F36 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9A9F430149F285E00BCA6A8 /* Project object */;
+}

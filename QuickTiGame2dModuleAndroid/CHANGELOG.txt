@@ -1,0 +1,31 @@
+Version 1.0 RC5 (released 2012-04-17)
+  . Add support for Titanium Mobile 2.0.1 GA
+Version 1.0 (released 2012-05-07)
+Version 1.1 (released 2012-05-14)
+  . Add: TextSprite that can render text strings
+  . Fix: MapSprite cause concurrent exception on Android
+  . Fix: game.screen returns retina resolution on non-retina devices with iOS 4
+Version 1.2 (released 2012-07-04)
+  . Add: MultiTouch Support for Android & iOS
+  . Add: Transform followParent* options that indicate parameters to be applied to child
+  . Add: Missing functions in sprite sheet on Android
+  . Add: Simple sound pool for Android 
+  . Update: Game view start/stop should be executed on ui thread.
+  . Update: Performance improvement on event propagation
+  . Fix: Using unloadTexture before nulling gameview leads to crash
+  . Fix: child transform with relative position does not work when sprite size is not square rectangle on iOS
+Version 1.3 (released 2012-08-13)
+  . Add: Sprite.data property that accepts TiBlob object to load texture to the sprite
+  . Add: Sprite.loadTextureByBlog and loadTextureByBlobWithName
+  . Add: Sprite.tag property that can be used to distinguish between sprites
+  . Add: GameView.usePerspective property that indicates whether viewpoint is perspective or orthogonal
+  . Add: Bezier curve transformation - thanks to darknos 
+  . Add: TextSprite.sizeWithText that returns text size without changing actual sprite text
+  . Add: GameView.opaque for Android
+  . Add: GameView.loadTextureWithTag and unloadTextureByTag
+  . Fix: Animation with frame list always shows first frame 0 initially
+  . Fix: Sprite transform goes bumpy with a lot of child sprite 
+  . Fix: Scene proxy throws enumeration exception at scene add/remove [Issue 42]
+  . Fix: TextSprite memory leak - thanks to darknos
+  . Fix; Memory leak on Sprite, Scene and Texture
+  . Fix: Performance improvement on Android (Redraw screen only when the screen is dirty)

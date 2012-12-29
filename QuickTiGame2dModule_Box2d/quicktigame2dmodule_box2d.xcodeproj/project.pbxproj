@@ -1,0 +1,1046 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* ComGooglecodeQuicktigame2d_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComGooglecodeQuicktigame2d_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		F92D86091540DDD500981B17 /* ArrayStackQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F92D86071540DDD500981B17 /* ArrayStackQueue.h */; };
+		F92D860A1540DDD500981B17 /* ArrayStackQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F92D86081540DDD500981B17 /* ArrayStackQueue.m */; };
+		F92D860D1540DDE000981B17 /* ParticleDataReader.h in Headers */ = {isa = PBXBuildFile; fileRef = F92D860B1540DDE000981B17 /* ParticleDataReader.h */; };
+		F92D860E1540DDE000981B17 /* ParticleDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F92D860C1540DDE000981B17 /* ParticleDataReader.m */; };
+		F92D86231540DDEA00981B17 /* QuickTiGame2dAnimationFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = F92D860F1540DDEA00981B17 /* QuickTiGame2dAnimationFrame.h */; };
+		F92D86241540DDEA00981B17 /* QuickTiGame2dAnimationFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F92D86101540DDEA00981B17 /* QuickTiGame2dAnimationFrame.m */; };
+		F92D86251540DDEA00981B17 /* QuickTiGame2dConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = F92D86111540DDEA00981B17 /* QuickTiGame2dConstant.h */; };
+		F92D86261540DDEA00981B17 /* QuickTiGame2dEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F92D86121540DDEA00981B17 /* QuickTiGame2dEngine.h */; };
+		F92D86271540DDEA00981B17 /* QuickTiGame2dEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F92D86131540DDEA00981B17 /* QuickTiGame2dEngine.m */; };
+		F92D86281540DDEA00981B17 /* QuickTiGame2dMapSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = F92D86141540DDEA00981B17 /* QuickTiGame2dMapSprite.h */; };
+		F92D86291540DDEA00981B17 /* QuickTiGame2dMapSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = F92D86151540DDEA00981B17 /* QuickTiGame2dMapSprite.m */; };
+		F92D862A1540DDEA00981B17 /* QuickTiGame2dParticles.h in Headers */ = {isa = PBXBuildFile; fileRef = F92D86161540DDEA00981B17 /* QuickTiGame2dParticles.h */; };
+		F92D862B1540DDEA00981B17 /* QuickTiGame2dParticles.m in Sources */ = {isa = PBXBuildFile; fileRef = F92D86171540DDEA00981B17 /* QuickTiGame2dParticles.m */; };
+		F92D862C1540DDEA00981B17 /* QuickTiGame2dParticlesTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F92D86181540DDEA00981B17 /* QuickTiGame2dParticlesTypes.h */; };
+		F92D862D1540DDEA00981B17 /* QuickTiGame2dScene.h in Headers */ = {isa = PBXBuildFile; fileRef = F92D86191540DDEA00981B17 /* QuickTiGame2dScene.h */; };
+		F92D862E1540DDEA00981B17 /* QuickTiGame2dScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F92D861A1540DDEA00981B17 /* QuickTiGame2dScene.m */; };
+		F92D862F1540DDEA00981B17 /* QuickTiGame2dSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = F92D861B1540DDEA00981B17 /* QuickTiGame2dSprite.h */; };
+		F92D86301540DDEA00981B17 /* QuickTiGame2dSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = F92D861C1540DDEA00981B17 /* QuickTiGame2dSprite.m */; };
+		F92D86311540DDEA00981B17 /* QuickTiGame2dTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = F92D861D1540DDEA00981B17 /* QuickTiGame2dTexture.h */; };
+		F92D86321540DDEA00981B17 /* QuickTiGame2dTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = F92D861E1540DDEA00981B17 /* QuickTiGame2dTexture.m */; };
+		F92D86331540DDEA00981B17 /* QuickTiGame2dTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = F92D861F1540DDEA00981B17 /* QuickTiGame2dTransform.h */; };
+		F92D86341540DDEA00981B17 /* QuickTiGame2dTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = F92D86201540DDEA00981B17 /* QuickTiGame2dTransform.m */; };
+		F92D86351540DDEA00981B17 /* QuickTiGame2dUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F92D86211540DDEA00981B17 /* QuickTiGame2dUtil.h */; };
+		F92D86361540DDEA00981B17 /* QuickTiGame2dUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F92D86221540DDEA00981B17 /* QuickTiGame2dUtil.m */; };
+		F9C8739A156263E500EE483B /* QuickTiGame2dTextSprite.h in Headers */ = {isa = PBXBuildFile; fileRef = F9C87398156263E500EE483B /* QuickTiGame2dTextSprite.h */; };
+		F9C8739B156263E500EE483B /* QuickTiGame2dTextSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C87399156263E500EE483B /* QuickTiGame2dTextSprite.m */; };
+		F9C8739F156263F300EE483B /* ComGooglecodeQuicktigame2dTextSpriteProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F9C8739D156263F300EE483B /* ComGooglecodeQuicktigame2dTextSpriteProxy.h */; };
+		F9C873A0156263F300EE483B /* ComGooglecodeQuicktigame2dTextSpriteProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C8739E156263F300EE483B /* ComGooglecodeQuicktigame2dTextSpriteProxy.m */; };
+		F9E31C32153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C1E153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameView.h */; };
+		F9E31C33153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C1F153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameView.m */; };
+		F9E31C34153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C20153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameViewProxy.h */; };
+		F9E31C35153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C21153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameViewProxy.m */; };
+		F9E31C36153E25230037FCD3 /* ComGooglecodeQuicktigame2dMapSpriteProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C22153E25230037FCD3 /* ComGooglecodeQuicktigame2dMapSpriteProxy.h */; };
+		F9E31C37153E25230037FCD3 /* ComGooglecodeQuicktigame2dMapSpriteProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C23153E25230037FCD3 /* ComGooglecodeQuicktigame2dMapSpriteProxy.m */; };
+		F9E31C38153E25230037FCD3 /* ComGooglecodeQuicktigame2dModule.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C24153E25230037FCD3 /* ComGooglecodeQuicktigame2dModule.h */; };
+		F9E31C39153E25230037FCD3 /* ComGooglecodeQuicktigame2dModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C25153E25230037FCD3 /* ComGooglecodeQuicktigame2dModule.m */; };
+		F9E31C3A153E25230037FCD3 /* ComGooglecodeQuicktigame2dModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C26153E25230037FCD3 /* ComGooglecodeQuicktigame2dModuleAssets.h */; };
+		F9E31C3B153E25230037FCD3 /* ComGooglecodeQuicktigame2dModuleAssets.mm in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C27153E25230037FCD3 /* ComGooglecodeQuicktigame2dModuleAssets.mm */; };
+		F9E31C3C153E25230037FCD3 /* ComGooglecodeQuicktigame2dParticlesProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C28153E25230037FCD3 /* ComGooglecodeQuicktigame2dParticlesProxy.h */; };
+		F9E31C3D153E25230037FCD3 /* ComGooglecodeQuicktigame2dParticlesProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C29153E25230037FCD3 /* ComGooglecodeQuicktigame2dParticlesProxy.m */; };
+		F9E31C3E153E25230037FCD3 /* ComGooglecodeQuicktigame2dSceneProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C2A153E25230037FCD3 /* ComGooglecodeQuicktigame2dSceneProxy.h */; };
+		F9E31C3F153E25230037FCD3 /* ComGooglecodeQuicktigame2dSceneProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C2B153E25230037FCD3 /* ComGooglecodeQuicktigame2dSceneProxy.m */; };
+		F9E31C40153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C2C153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteProxy.h */; };
+		F9E31C41153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C2D153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteProxy.m */; };
+		F9E31C42153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteSheetProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C2E153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteSheetProxy.h */; };
+		F9E31C43153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteSheetProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C2F153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteSheetProxy.m */; };
+		F9E31C44153E25230037FCD3 /* ComGooglecodeQuicktigame2dTransformProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C30153E25230037FCD3 /* ComGooglecodeQuicktigame2dTransformProxy.h */; };
+		F9E31C45153E25230037FCD3 /* ComGooglecodeQuicktigame2dTransformProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C31153E25230037FCD3 /* ComGooglecodeQuicktigame2dTransformProxy.m */; };
+		F9E31C9E153E25380037FCD3 /* Box2D.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C49153E25380037FCD3 /* Box2D.h */; };
+		F9E31C9F153E25380037FCD3 /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C4B153E25380037FCD3 /* b2BroadPhase.cpp */; };
+		F9E31CA0153E25380037FCD3 /* b2BroadPhase.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C4C153E25380037FCD3 /* b2BroadPhase.h */; };
+		F9E31CA1153E25380037FCD3 /* b2CollideCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C4D153E25380037FCD3 /* b2CollideCircle.cpp */; };
+		F9E31CA2153E25380037FCD3 /* b2CollidePolygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C4E153E25380037FCD3 /* b2CollidePolygon.cpp */; };
+		F9E31CA3153E25380037FCD3 /* b2Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C4F153E25380037FCD3 /* b2Collision.cpp */; };
+		F9E31CA4153E25380037FCD3 /* b2Collision.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C50153E25380037FCD3 /* b2Collision.h */; };
+		F9E31CA5153E25380037FCD3 /* b2Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C51153E25380037FCD3 /* b2Distance.cpp */; };
+		F9E31CA6153E25380037FCD3 /* b2Distance.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C52153E25380037FCD3 /* b2Distance.h */; };
+		F9E31CA7153E25380037FCD3 /* b2DynamicTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C53153E25380037FCD3 /* b2DynamicTree.cpp */; };
+		F9E31CA8153E25380037FCD3 /* b2DynamicTree.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C54153E25380037FCD3 /* b2DynamicTree.h */; };
+		F9E31CA9153E25380037FCD3 /* b2TimeOfImpact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C55153E25380037FCD3 /* b2TimeOfImpact.cpp */; };
+		F9E31CAA153E25380037FCD3 /* b2TimeOfImpact.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C56153E25380037FCD3 /* b2TimeOfImpact.h */; };
+		F9E31CAB153E25380037FCD3 /* b2CircleShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C58153E25380037FCD3 /* b2CircleShape.cpp */; };
+		F9E31CAC153E25380037FCD3 /* b2CircleShape.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C59153E25380037FCD3 /* b2CircleShape.h */; };
+		F9E31CAD153E25380037FCD3 /* b2PolygonShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C5A153E25380037FCD3 /* b2PolygonShape.cpp */; };
+		F9E31CAE153E25380037FCD3 /* b2PolygonShape.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C5B153E25380037FCD3 /* b2PolygonShape.h */; };
+		F9E31CAF153E25380037FCD3 /* b2Shape.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C5C153E25380037FCD3 /* b2Shape.h */; };
+		F9E31CB0153E25380037FCD3 /* b2BlockAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C5E153E25380037FCD3 /* b2BlockAllocator.cpp */; };
+		F9E31CB1153E25380037FCD3 /* b2BlockAllocator.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C5F153E25380037FCD3 /* b2BlockAllocator.h */; };
+		F9E31CB2153E25380037FCD3 /* b2Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C60153E25380037FCD3 /* b2Math.cpp */; };
+		F9E31CB3153E25380037FCD3 /* b2Math.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C61153E25380037FCD3 /* b2Math.h */; };
+		F9E31CB4153E25380037FCD3 /* b2Settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C62153E25380037FCD3 /* b2Settings.cpp */; };
+		F9E31CB5153E25380037FCD3 /* b2Settings.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C63153E25380037FCD3 /* b2Settings.h */; };
+		F9E31CB6153E25380037FCD3 /* b2StackAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C64153E25380037FCD3 /* b2StackAllocator.cpp */; };
+		F9E31CB7153E25380037FCD3 /* b2StackAllocator.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C65153E25380037FCD3 /* b2StackAllocator.h */; };
+		F9E31CB8153E25380037FCD3 /* b2Body.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C67153E25380037FCD3 /* b2Body.cpp */; };
+		F9E31CB9153E25380037FCD3 /* b2Body.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C68153E25380037FCD3 /* b2Body.h */; };
+		F9E31CBA153E25380037FCD3 /* b2ContactManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C69153E25380037FCD3 /* b2ContactManager.cpp */; };
+		F9E31CBB153E25380037FCD3 /* b2ContactManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C6A153E25380037FCD3 /* b2ContactManager.h */; };
+		F9E31CBC153E25380037FCD3 /* b2Fixture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C6B153E25380037FCD3 /* b2Fixture.cpp */; };
+		F9E31CBD153E25380037FCD3 /* b2Fixture.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C6C153E25380037FCD3 /* b2Fixture.h */; };
+		F9E31CBE153E25380037FCD3 /* b2Island.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C6D153E25380037FCD3 /* b2Island.cpp */; };
+		F9E31CBF153E25380037FCD3 /* b2Island.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C6E153E25380037FCD3 /* b2Island.h */; };
+		F9E31CC0153E25380037FCD3 /* b2TimeStep.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C6F153E25380037FCD3 /* b2TimeStep.h */; };
+		F9E31CC1153E25380037FCD3 /* b2World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C70153E25380037FCD3 /* b2World.cpp */; };
+		F9E31CC2153E25380037FCD3 /* b2World.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C71153E25380037FCD3 /* b2World.h */; };
+		F9E31CC3153E25380037FCD3 /* b2WorldCallbacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C72153E25380037FCD3 /* b2WorldCallbacks.cpp */; };
+		F9E31CC4153E25380037FCD3 /* b2WorldCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C73153E25380037FCD3 /* b2WorldCallbacks.h */; };
+		F9E31CC5153E25380037FCD3 /* b2CircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C75153E25380037FCD3 /* b2CircleContact.cpp */; };
+		F9E31CC6153E25380037FCD3 /* b2CircleContact.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C76153E25380037FCD3 /* b2CircleContact.h */; };
+		F9E31CC7153E25380037FCD3 /* b2Contact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C77153E25380037FCD3 /* b2Contact.cpp */; };
+		F9E31CC8153E25380037FCD3 /* b2Contact.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C78153E25380037FCD3 /* b2Contact.h */; };
+		F9E31CC9153E25380037FCD3 /* b2ContactSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C79153E25380037FCD3 /* b2ContactSolver.cpp */; };
+		F9E31CCA153E25380037FCD3 /* b2ContactSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C7A153E25380037FCD3 /* b2ContactSolver.h */; };
+		F9E31CCB153E25380037FCD3 /* b2PolygonAndCircleContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C7B153E25380037FCD3 /* b2PolygonAndCircleContact.cpp */; };
+		F9E31CCC153E25380037FCD3 /* b2PolygonAndCircleContact.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C7C153E25380037FCD3 /* b2PolygonAndCircleContact.h */; };
+		F9E31CCD153E25380037FCD3 /* b2PolygonContact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C7D153E25380037FCD3 /* b2PolygonContact.cpp */; };
+		F9E31CCE153E25380037FCD3 /* b2PolygonContact.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C7E153E25380037FCD3 /* b2PolygonContact.h */; };
+		F9E31CCF153E25380037FCD3 /* b2TOISolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C7F153E25380037FCD3 /* b2TOISolver.cpp */; };
+		F9E31CD0153E25380037FCD3 /* b2TOISolver.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C80153E25380037FCD3 /* b2TOISolver.h */; };
+		F9E31CD1153E25380037FCD3 /* b2DistanceJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C82153E25380037FCD3 /* b2DistanceJoint.cpp */; };
+		F9E31CD2153E25380037FCD3 /* b2DistanceJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C83153E25380037FCD3 /* b2DistanceJoint.h */; };
+		F9E31CD3153E25380037FCD3 /* b2FrictionJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C84153E25380037FCD3 /* b2FrictionJoint.cpp */; };
+		F9E31CD4153E25380037FCD3 /* b2FrictionJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C85153E25380037FCD3 /* b2FrictionJoint.h */; };
+		F9E31CD5153E25380037FCD3 /* b2GearJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C86153E25380037FCD3 /* b2GearJoint.cpp */; };
+		F9E31CD6153E25380037FCD3 /* b2GearJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C87153E25380037FCD3 /* b2GearJoint.h */; };
+		F9E31CD7153E25380037FCD3 /* b2Joint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C88153E25380037FCD3 /* b2Joint.cpp */; };
+		F9E31CD8153E25380037FCD3 /* b2Joint.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C89153E25380037FCD3 /* b2Joint.h */; };
+		F9E31CD9153E25380037FCD3 /* b2LineJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C8A153E25380037FCD3 /* b2LineJoint.cpp */; };
+		F9E31CDA153E25380037FCD3 /* b2LineJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C8B153E25380037FCD3 /* b2LineJoint.h */; };
+		F9E31CDB153E25380037FCD3 /* b2MouseJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C8C153E25380037FCD3 /* b2MouseJoint.cpp */; };
+		F9E31CDC153E25380037FCD3 /* b2MouseJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C8D153E25380037FCD3 /* b2MouseJoint.h */; };
+		F9E31CDD153E25380037FCD3 /* b2PrismaticJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C8E153E25380037FCD3 /* b2PrismaticJoint.cpp */; };
+		F9E31CDE153E25380037FCD3 /* b2PrismaticJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C8F153E25380037FCD3 /* b2PrismaticJoint.h */; };
+		F9E31CDF153E25380037FCD3 /* b2PulleyJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C90153E25380037FCD3 /* b2PulleyJoint.cpp */; };
+		F9E31CE0153E25380037FCD3 /* b2PulleyJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C91153E25380037FCD3 /* b2PulleyJoint.h */; };
+		F9E31CE1153E25380037FCD3 /* b2RevoluteJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C92153E25380037FCD3 /* b2RevoluteJoint.cpp */; };
+		F9E31CE2153E25380037FCD3 /* b2RevoluteJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C93153E25380037FCD3 /* b2RevoluteJoint.h */; };
+		F9E31CE3153E25380037FCD3 /* b2WeldJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C94153E25380037FCD3 /* b2WeldJoint.cpp */; };
+		F9E31CE4153E25380037FCD3 /* b2WeldJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C95153E25380037FCD3 /* b2WeldJoint.h */; };
+		F9E31CE5153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dBodyProxy.hh in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C96153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dBodyProxy.hh */; };
+		F9E31CE6153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dBodyProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C97153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dBodyProxy.mm */; };
+		F9E31CE7153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dRevJointProxy.hh in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C98153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dRevJointProxy.hh */; };
+		F9E31CE8153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dRevJointProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C99153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dRevJointProxy.mm */; };
+		F9E31CE9153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dWorldProxy.hh in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C9A153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dWorldProxy.hh */; };
+		F9E31CEA153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dWorldProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C9B153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dWorldProxy.mm */; };
+		F9E31CEB153E25380037FCD3 /* TiContactListener.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E31C9C153E25380037FCD3 /* TiContactListener.h */; };
+		F9E31CEC153E25380037FCD3 /* TiContactListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = F9E31C9D153E25380037FCD3 /* TiContactListener.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = quicktigame2dmodule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* ComGooglecodeQuicktigame2d_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComGooglecodeQuicktigame2d_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libComGooglecodeQuicktigame2d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComGooglecodeQuicktigame2d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92D86071540DDD500981B17 /* ArrayStackQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrayStackQueue.h; path = ../QuickTiGame2d/QuickTiGame2d/ArrayStackQueue.h; sourceTree = "<group>"; };
+		F92D86081540DDD500981B17 /* ArrayStackQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArrayStackQueue.m; path = ../QuickTiGame2d/QuickTiGame2d/ArrayStackQueue.m; sourceTree = "<group>"; };
+		F92D860B1540DDE000981B17 /* ParticleDataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleDataReader.h; path = ../QuickTiGame2d/QuickTiGame2d/ParticleDataReader.h; sourceTree = "<group>"; };
+		F92D860C1540DDE000981B17 /* ParticleDataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParticleDataReader.m; path = ../QuickTiGame2d/QuickTiGame2d/ParticleDataReader.m; sourceTree = "<group>"; };
+		F92D860F1540DDEA00981B17 /* QuickTiGame2dAnimationFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickTiGame2dAnimationFrame.h; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dAnimationFrame.h; sourceTree = "<group>"; };
+		F92D86101540DDEA00981B17 /* QuickTiGame2dAnimationFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickTiGame2dAnimationFrame.m; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dAnimationFrame.m; sourceTree = "<group>"; };
+		F92D86111540DDEA00981B17 /* QuickTiGame2dConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickTiGame2dConstant.h; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dConstant.h; sourceTree = "<group>"; };
+		F92D86121540DDEA00981B17 /* QuickTiGame2dEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickTiGame2dEngine.h; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dEngine.h; sourceTree = "<group>"; };
+		F92D86131540DDEA00981B17 /* QuickTiGame2dEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickTiGame2dEngine.m; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dEngine.m; sourceTree = "<group>"; };
+		F92D86141540DDEA00981B17 /* QuickTiGame2dMapSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickTiGame2dMapSprite.h; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dMapSprite.h; sourceTree = "<group>"; };
+		F92D86151540DDEA00981B17 /* QuickTiGame2dMapSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickTiGame2dMapSprite.m; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dMapSprite.m; sourceTree = "<group>"; };
+		F92D86161540DDEA00981B17 /* QuickTiGame2dParticles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickTiGame2dParticles.h; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dParticles.h; sourceTree = "<group>"; };
+		F92D86171540DDEA00981B17 /* QuickTiGame2dParticles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickTiGame2dParticles.m; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dParticles.m; sourceTree = "<group>"; };
+		F92D86181540DDEA00981B17 /* QuickTiGame2dParticlesTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickTiGame2dParticlesTypes.h; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dParticlesTypes.h; sourceTree = "<group>"; };
+		F92D86191540DDEA00981B17 /* QuickTiGame2dScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickTiGame2dScene.h; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dScene.h; sourceTree = "<group>"; };
+		F92D861A1540DDEA00981B17 /* QuickTiGame2dScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickTiGame2dScene.m; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dScene.m; sourceTree = "<group>"; };
+		F92D861B1540DDEA00981B17 /* QuickTiGame2dSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickTiGame2dSprite.h; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dSprite.h; sourceTree = "<group>"; };
+		F92D861C1540DDEA00981B17 /* QuickTiGame2dSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickTiGame2dSprite.m; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dSprite.m; sourceTree = "<group>"; };
+		F92D861D1540DDEA00981B17 /* QuickTiGame2dTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickTiGame2dTexture.h; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dTexture.h; sourceTree = "<group>"; };
+		F92D861E1540DDEA00981B17 /* QuickTiGame2dTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickTiGame2dTexture.m; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dTexture.m; sourceTree = "<group>"; };
+		F92D861F1540DDEA00981B17 /* QuickTiGame2dTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickTiGame2dTransform.h; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dTransform.h; sourceTree = "<group>"; };
+		F92D86201540DDEA00981B17 /* QuickTiGame2dTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickTiGame2dTransform.m; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dTransform.m; sourceTree = "<group>"; };
+		F92D86211540DDEA00981B17 /* QuickTiGame2dUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickTiGame2dUtil.h; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dUtil.h; sourceTree = "<group>"; };
+		F92D86221540DDEA00981B17 /* QuickTiGame2dUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickTiGame2dUtil.m; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dUtil.m; sourceTree = "<group>"; };
+		F944A35C153DBF6700CA94DC /* app.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = app.js; path = example/app.js; sourceTree = "<group>"; };
+		F9C87398156263E500EE483B /* QuickTiGame2dTextSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuickTiGame2dTextSprite.h; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dTextSprite.h; sourceTree = "<group>"; };
+		F9C87399156263E500EE483B /* QuickTiGame2dTextSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuickTiGame2dTextSprite.m; path = ../QuickTiGame2d/QuickTiGame2d/QuickTiGame2dTextSprite.m; sourceTree = "<group>"; };
+		F9C8739D156263F300EE483B /* ComGooglecodeQuicktigame2dTextSpriteProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGooglecodeQuicktigame2dTextSpriteProxy.h; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dTextSpriteProxy.h; sourceTree = "<group>"; };
+		F9C8739E156263F300EE483B /* ComGooglecodeQuicktigame2dTextSpriteProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGooglecodeQuicktigame2dTextSpriteProxy.m; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dTextSpriteProxy.m; sourceTree = "<group>"; };
+		F9E31C1E153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGooglecodeQuicktigame2dGameView.h; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dGameView.h; sourceTree = "<group>"; };
+		F9E31C1F153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGooglecodeQuicktigame2dGameView.m; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dGameView.m; sourceTree = "<group>"; };
+		F9E31C20153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGooglecodeQuicktigame2dGameViewProxy.h; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dGameViewProxy.h; sourceTree = "<group>"; };
+		F9E31C21153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGooglecodeQuicktigame2dGameViewProxy.m; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dGameViewProxy.m; sourceTree = "<group>"; };
+		F9E31C22153E25230037FCD3 /* ComGooglecodeQuicktigame2dMapSpriteProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGooglecodeQuicktigame2dMapSpriteProxy.h; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dMapSpriteProxy.h; sourceTree = "<group>"; };
+		F9E31C23153E25230037FCD3 /* ComGooglecodeQuicktigame2dMapSpriteProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGooglecodeQuicktigame2dMapSpriteProxy.m; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dMapSpriteProxy.m; sourceTree = "<group>"; };
+		F9E31C24153E25230037FCD3 /* ComGooglecodeQuicktigame2dModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGooglecodeQuicktigame2dModule.h; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dModule.h; sourceTree = "<group>"; };
+		F9E31C25153E25230037FCD3 /* ComGooglecodeQuicktigame2dModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGooglecodeQuicktigame2dModule.m; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dModule.m; sourceTree = "<group>"; };
+		F9E31C26153E25230037FCD3 /* ComGooglecodeQuicktigame2dModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGooglecodeQuicktigame2dModuleAssets.h; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dModuleAssets.h; sourceTree = "<group>"; };
+		F9E31C27153E25230037FCD3 /* ComGooglecodeQuicktigame2dModuleAssets.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ComGooglecodeQuicktigame2dModuleAssets.mm; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dModuleAssets.mm; sourceTree = "<group>"; };
+		F9E31C28153E25230037FCD3 /* ComGooglecodeQuicktigame2dParticlesProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGooglecodeQuicktigame2dParticlesProxy.h; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dParticlesProxy.h; sourceTree = "<group>"; };
+		F9E31C29153E25230037FCD3 /* ComGooglecodeQuicktigame2dParticlesProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGooglecodeQuicktigame2dParticlesProxy.m; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dParticlesProxy.m; sourceTree = "<group>"; };
+		F9E31C2A153E25230037FCD3 /* ComGooglecodeQuicktigame2dSceneProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGooglecodeQuicktigame2dSceneProxy.h; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dSceneProxy.h; sourceTree = "<group>"; };
+		F9E31C2B153E25230037FCD3 /* ComGooglecodeQuicktigame2dSceneProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGooglecodeQuicktigame2dSceneProxy.m; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dSceneProxy.m; sourceTree = "<group>"; };
+		F9E31C2C153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGooglecodeQuicktigame2dSpriteProxy.h; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dSpriteProxy.h; sourceTree = "<group>"; };
+		F9E31C2D153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGooglecodeQuicktigame2dSpriteProxy.m; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dSpriteProxy.m; sourceTree = "<group>"; };
+		F9E31C2E153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteSheetProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGooglecodeQuicktigame2dSpriteSheetProxy.h; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dSpriteSheetProxy.h; sourceTree = "<group>"; };
+		F9E31C2F153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteSheetProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGooglecodeQuicktigame2dSpriteSheetProxy.m; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dSpriteSheetProxy.m; sourceTree = "<group>"; };
+		F9E31C30153E25230037FCD3 /* ComGooglecodeQuicktigame2dTransformProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGooglecodeQuicktigame2dTransformProxy.h; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dTransformProxy.h; sourceTree = "<group>"; };
+		F9E31C31153E25230037FCD3 /* ComGooglecodeQuicktigame2dTransformProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGooglecodeQuicktigame2dTransformProxy.m; path = ../QuickTiGame2dModule/Classes/ComGooglecodeQuicktigame2dTransformProxy.m; sourceTree = "<group>"; };
+		F9E31C49153E25380037FCD3 /* Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2D.h; sourceTree = "<group>"; };
+		F9E31C4B153E25380037FCD3 /* b2BroadPhase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2BroadPhase.cpp; sourceTree = "<group>"; };
+		F9E31C4C153E25380037FCD3 /* b2BroadPhase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2BroadPhase.h; sourceTree = "<group>"; };
+		F9E31C4D153E25380037FCD3 /* b2CollideCircle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2CollideCircle.cpp; sourceTree = "<group>"; };
+		F9E31C4E153E25380037FCD3 /* b2CollidePolygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2CollidePolygon.cpp; sourceTree = "<group>"; };
+		F9E31C4F153E25380037FCD3 /* b2Collision.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Collision.cpp; sourceTree = "<group>"; };
+		F9E31C50153E25380037FCD3 /* b2Collision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Collision.h; sourceTree = "<group>"; };
+		F9E31C51153E25380037FCD3 /* b2Distance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Distance.cpp; sourceTree = "<group>"; };
+		F9E31C52153E25380037FCD3 /* b2Distance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Distance.h; sourceTree = "<group>"; };
+		F9E31C53153E25380037FCD3 /* b2DynamicTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2DynamicTree.cpp; sourceTree = "<group>"; };
+		F9E31C54153E25380037FCD3 /* b2DynamicTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2DynamicTree.h; sourceTree = "<group>"; };
+		F9E31C55153E25380037FCD3 /* b2TimeOfImpact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2TimeOfImpact.cpp; sourceTree = "<group>"; };
+		F9E31C56153E25380037FCD3 /* b2TimeOfImpact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2TimeOfImpact.h; sourceTree = "<group>"; };
+		F9E31C58153E25380037FCD3 /* b2CircleShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2CircleShape.cpp; sourceTree = "<group>"; };
+		F9E31C59153E25380037FCD3 /* b2CircleShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2CircleShape.h; sourceTree = "<group>"; };
+		F9E31C5A153E25380037FCD3 /* b2PolygonShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2PolygonShape.cpp; sourceTree = "<group>"; };
+		F9E31C5B153E25380037FCD3 /* b2PolygonShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2PolygonShape.h; sourceTree = "<group>"; };
+		F9E31C5C153E25380037FCD3 /* b2Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Shape.h; sourceTree = "<group>"; };
+		F9E31C5E153E25380037FCD3 /* b2BlockAllocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2BlockAllocator.cpp; sourceTree = "<group>"; };
+		F9E31C5F153E25380037FCD3 /* b2BlockAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2BlockAllocator.h; sourceTree = "<group>"; };
+		F9E31C60153E25380037FCD3 /* b2Math.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Math.cpp; sourceTree = "<group>"; };
+		F9E31C61153E25380037FCD3 /* b2Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Math.h; sourceTree = "<group>"; };
+		F9E31C62153E25380037FCD3 /* b2Settings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Settings.cpp; sourceTree = "<group>"; };
+		F9E31C63153E25380037FCD3 /* b2Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Settings.h; sourceTree = "<group>"; };
+		F9E31C64153E25380037FCD3 /* b2StackAllocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2StackAllocator.cpp; sourceTree = "<group>"; };
+		F9E31C65153E25380037FCD3 /* b2StackAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2StackAllocator.h; sourceTree = "<group>"; };
+		F9E31C67153E25380037FCD3 /* b2Body.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Body.cpp; sourceTree = "<group>"; };
+		F9E31C68153E25380037FCD3 /* b2Body.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Body.h; sourceTree = "<group>"; };
+		F9E31C69153E25380037FCD3 /* b2ContactManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2ContactManager.cpp; sourceTree = "<group>"; };
+		F9E31C6A153E25380037FCD3 /* b2ContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2ContactManager.h; sourceTree = "<group>"; };
+		F9E31C6B153E25380037FCD3 /* b2Fixture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Fixture.cpp; sourceTree = "<group>"; };
+		F9E31C6C153E25380037FCD3 /* b2Fixture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Fixture.h; sourceTree = "<group>"; };
+		F9E31C6D153E25380037FCD3 /* b2Island.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Island.cpp; sourceTree = "<group>"; };
+		F9E31C6E153E25380037FCD3 /* b2Island.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Island.h; sourceTree = "<group>"; };
+		F9E31C6F153E25380037FCD3 /* b2TimeStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2TimeStep.h; sourceTree = "<group>"; };
+		F9E31C70153E25380037FCD3 /* b2World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2World.cpp; sourceTree = "<group>"; };
+		F9E31C71153E25380037FCD3 /* b2World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2World.h; sourceTree = "<group>"; };
+		F9E31C72153E25380037FCD3 /* b2WorldCallbacks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2WorldCallbacks.cpp; sourceTree = "<group>"; };
+		F9E31C73153E25380037FCD3 /* b2WorldCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2WorldCallbacks.h; sourceTree = "<group>"; };
+		F9E31C75153E25380037FCD3 /* b2CircleContact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2CircleContact.cpp; sourceTree = "<group>"; };
+		F9E31C76153E25380037FCD3 /* b2CircleContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2CircleContact.h; sourceTree = "<group>"; };
+		F9E31C77153E25380037FCD3 /* b2Contact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Contact.cpp; sourceTree = "<group>"; };
+		F9E31C78153E25380037FCD3 /* b2Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Contact.h; sourceTree = "<group>"; };
+		F9E31C79153E25380037FCD3 /* b2ContactSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2ContactSolver.cpp; sourceTree = "<group>"; };
+		F9E31C7A153E25380037FCD3 /* b2ContactSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2ContactSolver.h; sourceTree = "<group>"; };
+		F9E31C7B153E25380037FCD3 /* b2PolygonAndCircleContact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2PolygonAndCircleContact.cpp; sourceTree = "<group>"; };
+		F9E31C7C153E25380037FCD3 /* b2PolygonAndCircleContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2PolygonAndCircleContact.h; sourceTree = "<group>"; };
+		F9E31C7D153E25380037FCD3 /* b2PolygonContact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2PolygonContact.cpp; sourceTree = "<group>"; };
+		F9E31C7E153E25380037FCD3 /* b2PolygonContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2PolygonContact.h; sourceTree = "<group>"; };
+		F9E31C7F153E25380037FCD3 /* b2TOISolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2TOISolver.cpp; sourceTree = "<group>"; };
+		F9E31C80153E25380037FCD3 /* b2TOISolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2TOISolver.h; sourceTree = "<group>"; };
+		F9E31C82153E25380037FCD3 /* b2DistanceJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2DistanceJoint.cpp; sourceTree = "<group>"; };
+		F9E31C83153E25380037FCD3 /* b2DistanceJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2DistanceJoint.h; sourceTree = "<group>"; };
+		F9E31C84153E25380037FCD3 /* b2FrictionJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2FrictionJoint.cpp; sourceTree = "<group>"; };
+		F9E31C85153E25380037FCD3 /* b2FrictionJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2FrictionJoint.h; sourceTree = "<group>"; };
+		F9E31C86153E25380037FCD3 /* b2GearJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2GearJoint.cpp; sourceTree = "<group>"; };
+		F9E31C87153E25380037FCD3 /* b2GearJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2GearJoint.h; sourceTree = "<group>"; };
+		F9E31C88153E25380037FCD3 /* b2Joint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Joint.cpp; sourceTree = "<group>"; };
+		F9E31C89153E25380037FCD3 /* b2Joint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Joint.h; sourceTree = "<group>"; };
+		F9E31C8A153E25380037FCD3 /* b2LineJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2LineJoint.cpp; sourceTree = "<group>"; };
+		F9E31C8B153E25380037FCD3 /* b2LineJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2LineJoint.h; sourceTree = "<group>"; };
+		F9E31C8C153E25380037FCD3 /* b2MouseJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2MouseJoint.cpp; sourceTree = "<group>"; };
+		F9E31C8D153E25380037FCD3 /* b2MouseJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2MouseJoint.h; sourceTree = "<group>"; };
+		F9E31C8E153E25380037FCD3 /* b2PrismaticJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2PrismaticJoint.cpp; sourceTree = "<group>"; };
+		F9E31C8F153E25380037FCD3 /* b2PrismaticJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2PrismaticJoint.h; sourceTree = "<group>"; };
+		F9E31C90153E25380037FCD3 /* b2PulleyJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2PulleyJoint.cpp; sourceTree = "<group>"; };
+		F9E31C91153E25380037FCD3 /* b2PulleyJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2PulleyJoint.h; sourceTree = "<group>"; };
+		F9E31C92153E25380037FCD3 /* b2RevoluteJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2RevoluteJoint.cpp; sourceTree = "<group>"; };
+		F9E31C93153E25380037FCD3 /* b2RevoluteJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2RevoluteJoint.h; sourceTree = "<group>"; };
+		F9E31C94153E25380037FCD3 /* b2WeldJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2WeldJoint.cpp; sourceTree = "<group>"; };
+		F9E31C95153E25380037FCD3 /* b2WeldJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2WeldJoint.h; sourceTree = "<group>"; };
+		F9E31C96153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dBodyProxy.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ComGooglecodeQuicktigame2dBox2dBodyProxy.hh; path = Classes/ComGooglecodeQuicktigame2dBox2dBodyProxy.hh; sourceTree = "<group>"; };
+		F9E31C97153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dBodyProxy.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ComGooglecodeQuicktigame2dBox2dBodyProxy.mm; path = Classes/ComGooglecodeQuicktigame2dBox2dBodyProxy.mm; sourceTree = "<group>"; };
+		F9E31C98153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dRevJointProxy.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ComGooglecodeQuicktigame2dBox2dRevJointProxy.hh; path = Classes/ComGooglecodeQuicktigame2dBox2dRevJointProxy.hh; sourceTree = "<group>"; };
+		F9E31C99153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dRevJointProxy.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ComGooglecodeQuicktigame2dBox2dRevJointProxy.mm; path = Classes/ComGooglecodeQuicktigame2dBox2dRevJointProxy.mm; sourceTree = "<group>"; };
+		F9E31C9A153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dWorldProxy.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ComGooglecodeQuicktigame2dBox2dWorldProxy.hh; path = Classes/ComGooglecodeQuicktigame2dBox2dWorldProxy.hh; sourceTree = "<group>"; };
+		F9E31C9B153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dWorldProxy.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ComGooglecodeQuicktigame2dBox2dWorldProxy.mm; path = Classes/ComGooglecodeQuicktigame2dBox2dWorldProxy.mm; sourceTree = "<group>"; };
+		F9E31C9C153E25380037FCD3 /* TiContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiContactListener.h; path = Classes/TiContactListener.h; sourceTree = "<group>"; };
+		F9E31C9D153E25380037FCD3 /* TiContactListener.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TiContactListener.mm; path = Classes/TiContactListener.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libComGooglecodeQuicktigame2d.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* quicktigame2dmodule */ = {
+			isa = PBXGroup;
+			children = (
+				F9E31C46153E252C0037FCD3 /* Extension */,
+				F944A35B153DBF5400CA94DC /* example */,
+				F944A32A153DBEB000CA94DC /* QuickTiGame2d */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = quicktigame2dmodule;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F9C8739D156263F300EE483B /* ComGooglecodeQuicktigame2dTextSpriteProxy.h */,
+				F9C8739E156263F300EE483B /* ComGooglecodeQuicktigame2dTextSpriteProxy.m */,
+				F9E31C1E153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameView.h */,
+				F9E31C1F153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameView.m */,
+				F9E31C20153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameViewProxy.h */,
+				F9E31C21153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameViewProxy.m */,
+				F9E31C22153E25230037FCD3 /* ComGooglecodeQuicktigame2dMapSpriteProxy.h */,
+				F9E31C23153E25230037FCD3 /* ComGooglecodeQuicktigame2dMapSpriteProxy.m */,
+				F9E31C24153E25230037FCD3 /* ComGooglecodeQuicktigame2dModule.h */,
+				F9E31C25153E25230037FCD3 /* ComGooglecodeQuicktigame2dModule.m */,
+				F9E31C26153E25230037FCD3 /* ComGooglecodeQuicktigame2dModuleAssets.h */,
+				F9E31C27153E25230037FCD3 /* ComGooglecodeQuicktigame2dModuleAssets.mm */,
+				F9E31C28153E25230037FCD3 /* ComGooglecodeQuicktigame2dParticlesProxy.h */,
+				F9E31C29153E25230037FCD3 /* ComGooglecodeQuicktigame2dParticlesProxy.m */,
+				F9E31C2A153E25230037FCD3 /* ComGooglecodeQuicktigame2dSceneProxy.h */,
+				F9E31C2B153E25230037FCD3 /* ComGooglecodeQuicktigame2dSceneProxy.m */,
+				F9E31C2C153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteProxy.h */,
+				F9E31C2D153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteProxy.m */,
+				F9E31C2E153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteSheetProxy.h */,
+				F9E31C2F153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteSheetProxy.m */,
+				F9E31C30153E25230037FCD3 /* ComGooglecodeQuicktigame2dTransformProxy.h */,
+				F9E31C31153E25230037FCD3 /* ComGooglecodeQuicktigame2dTransformProxy.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* ComGooglecodeQuicktigame2d_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		F944A32A153DBEB000CA94DC /* QuickTiGame2d */ = {
+			isa = PBXGroup;
+			children = (
+				F9C87398156263E500EE483B /* QuickTiGame2dTextSprite.h */,
+				F9C87399156263E500EE483B /* QuickTiGame2dTextSprite.m */,
+				F92D860F1540DDEA00981B17 /* QuickTiGame2dAnimationFrame.h */,
+				F92D86101540DDEA00981B17 /* QuickTiGame2dAnimationFrame.m */,
+				F92D86111540DDEA00981B17 /* QuickTiGame2dConstant.h */,
+				F92D86121540DDEA00981B17 /* QuickTiGame2dEngine.h */,
+				F92D86131540DDEA00981B17 /* QuickTiGame2dEngine.m */,
+				F92D86141540DDEA00981B17 /* QuickTiGame2dMapSprite.h */,
+				F92D86151540DDEA00981B17 /* QuickTiGame2dMapSprite.m */,
+				F92D86161540DDEA00981B17 /* QuickTiGame2dParticles.h */,
+				F92D86171540DDEA00981B17 /* QuickTiGame2dParticles.m */,
+				F92D86181540DDEA00981B17 /* QuickTiGame2dParticlesTypes.h */,
+				F92D86191540DDEA00981B17 /* QuickTiGame2dScene.h */,
+				F92D861A1540DDEA00981B17 /* QuickTiGame2dScene.m */,
+				F92D861B1540DDEA00981B17 /* QuickTiGame2dSprite.h */,
+				F92D861C1540DDEA00981B17 /* QuickTiGame2dSprite.m */,
+				F92D861D1540DDEA00981B17 /* QuickTiGame2dTexture.h */,
+				F92D861E1540DDEA00981B17 /* QuickTiGame2dTexture.m */,
+				F92D861F1540DDEA00981B17 /* QuickTiGame2dTransform.h */,
+				F92D86201540DDEA00981B17 /* QuickTiGame2dTransform.m */,
+				F92D86211540DDEA00981B17 /* QuickTiGame2dUtil.h */,
+				F92D86221540DDEA00981B17 /* QuickTiGame2dUtil.m */,
+				F92D860B1540DDE000981B17 /* ParticleDataReader.h */,
+				F92D860C1540DDE000981B17 /* ParticleDataReader.m */,
+				F92D86071540DDD500981B17 /* ArrayStackQueue.h */,
+				F92D86081540DDD500981B17 /* ArrayStackQueue.m */,
+			);
+			name = QuickTiGame2d;
+			sourceTree = "<group>";
+		};
+		F944A35B153DBF5400CA94DC /* example */ = {
+			isa = PBXGroup;
+			children = (
+				F944A35C153DBF6700CA94DC /* app.js */,
+			);
+			name = example;
+			sourceTree = "<group>";
+		};
+		F9E31C46153E252C0037FCD3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F9E31C47153E25380037FCD3 /* Box2D */,
+				F9E31C96153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dBodyProxy.hh */,
+				F9E31C97153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dBodyProxy.mm */,
+				F9E31C98153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dRevJointProxy.hh */,
+				F9E31C99153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dRevJointProxy.mm */,
+				F9E31C9A153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dWorldProxy.hh */,
+				F9E31C9B153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dWorldProxy.mm */,
+				F9E31C9C153E25380037FCD3 /* TiContactListener.h */,
+				F9E31C9D153E25380037FCD3 /* TiContactListener.mm */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		F9E31C47153E25380037FCD3 /* Box2D */ = {
+			isa = PBXGroup;
+			children = (
+				F9E31C48153E25380037FCD3 /* Box2D */,
+			);
+			name = Box2D;
+			path = Classes/Box2D;
+			sourceTree = "<group>";
+		};
+		F9E31C48153E25380037FCD3 /* Box2D */ = {
+			isa = PBXGroup;
+			children = (
+				F9E31C49153E25380037FCD3 /* Box2D.h */,
+				F9E31C4A153E25380037FCD3 /* Collision */,
+				F9E31C5D153E25380037FCD3 /* Common */,
+				F9E31C66153E25380037FCD3 /* Dynamics */,
+			);
+			path = Box2D;
+			sourceTree = "<group>";
+		};
+		F9E31C4A153E25380037FCD3 /* Collision */ = {
+			isa = PBXGroup;
+			children = (
+				F9E31C4B153E25380037FCD3 /* b2BroadPhase.cpp */,
+				F9E31C4C153E25380037FCD3 /* b2BroadPhase.h */,
+				F9E31C4D153E25380037FCD3 /* b2CollideCircle.cpp */,
+				F9E31C4E153E25380037FCD3 /* b2CollidePolygon.cpp */,
+				F9E31C4F153E25380037FCD3 /* b2Collision.cpp */,
+				F9E31C50153E25380037FCD3 /* b2Collision.h */,
+				F9E31C51153E25380037FCD3 /* b2Distance.cpp */,
+				F9E31C52153E25380037FCD3 /* b2Distance.h */,
+				F9E31C53153E25380037FCD3 /* b2DynamicTree.cpp */,
+				F9E31C54153E25380037FCD3 /* b2DynamicTree.h */,
+				F9E31C55153E25380037FCD3 /* b2TimeOfImpact.cpp */,
+				F9E31C56153E25380037FCD3 /* b2TimeOfImpact.h */,
+				F9E31C57153E25380037FCD3 /* Shapes */,
+			);
+			path = Collision;
+			sourceTree = "<group>";
+		};
+		F9E31C57153E25380037FCD3 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				F9E31C58153E25380037FCD3 /* b2CircleShape.cpp */,
+				F9E31C59153E25380037FCD3 /* b2CircleShape.h */,
+				F9E31C5A153E25380037FCD3 /* b2PolygonShape.cpp */,
+				F9E31C5B153E25380037FCD3 /* b2PolygonShape.h */,
+				F9E31C5C153E25380037FCD3 /* b2Shape.h */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		F9E31C5D153E25380037FCD3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F9E31C5E153E25380037FCD3 /* b2BlockAllocator.cpp */,
+				F9E31C5F153E25380037FCD3 /* b2BlockAllocator.h */,
+				F9E31C60153E25380037FCD3 /* b2Math.cpp */,
+				F9E31C61153E25380037FCD3 /* b2Math.h */,
+				F9E31C62153E25380037FCD3 /* b2Settings.cpp */,
+				F9E31C63153E25380037FCD3 /* b2Settings.h */,
+				F9E31C64153E25380037FCD3 /* b2StackAllocator.cpp */,
+				F9E31C65153E25380037FCD3 /* b2StackAllocator.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F9E31C66153E25380037FCD3 /* Dynamics */ = {
+			isa = PBXGroup;
+			children = (
+				F9E31C67153E25380037FCD3 /* b2Body.cpp */,
+				F9E31C68153E25380037FCD3 /* b2Body.h */,
+				F9E31C69153E25380037FCD3 /* b2ContactManager.cpp */,
+				F9E31C6A153E25380037FCD3 /* b2ContactManager.h */,
+				F9E31C6B153E25380037FCD3 /* b2Fixture.cpp */,
+				F9E31C6C153E25380037FCD3 /* b2Fixture.h */,
+				F9E31C6D153E25380037FCD3 /* b2Island.cpp */,
+				F9E31C6E153E25380037FCD3 /* b2Island.h */,
+				F9E31C6F153E25380037FCD3 /* b2TimeStep.h */,
+				F9E31C70153E25380037FCD3 /* b2World.cpp */,
+				F9E31C71153E25380037FCD3 /* b2World.h */,
+				F9E31C72153E25380037FCD3 /* b2WorldCallbacks.cpp */,
+				F9E31C73153E25380037FCD3 /* b2WorldCallbacks.h */,
+				F9E31C74153E25380037FCD3 /* Contacts */,
+				F9E31C81153E25380037FCD3 /* Joints */,
+			);
+			path = Dynamics;
+			sourceTree = "<group>";
+		};
+		F9E31C74153E25380037FCD3 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				F9E31C75153E25380037FCD3 /* b2CircleContact.cpp */,
+				F9E31C76153E25380037FCD3 /* b2CircleContact.h */,
+				F9E31C77153E25380037FCD3 /* b2Contact.cpp */,
+				F9E31C78153E25380037FCD3 /* b2Contact.h */,
+				F9E31C79153E25380037FCD3 /* b2ContactSolver.cpp */,
+				F9E31C7A153E25380037FCD3 /* b2ContactSolver.h */,
+				F9E31C7B153E25380037FCD3 /* b2PolygonAndCircleContact.cpp */,
+				F9E31C7C153E25380037FCD3 /* b2PolygonAndCircleContact.h */,
+				F9E31C7D153E25380037FCD3 /* b2PolygonContact.cpp */,
+				F9E31C7E153E25380037FCD3 /* b2PolygonContact.h */,
+				F9E31C7F153E25380037FCD3 /* b2TOISolver.cpp */,
+				F9E31C80153E25380037FCD3 /* b2TOISolver.h */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		F9E31C81153E25380037FCD3 /* Joints */ = {
+			isa = PBXGroup;
+			children = (
+				F9E31C82153E25380037FCD3 /* b2DistanceJoint.cpp */,
+				F9E31C83153E25380037FCD3 /* b2DistanceJoint.h */,
+				F9E31C84153E25380037FCD3 /* b2FrictionJoint.cpp */,
+				F9E31C85153E25380037FCD3 /* b2FrictionJoint.h */,
+				F9E31C86153E25380037FCD3 /* b2GearJoint.cpp */,
+				F9E31C87153E25380037FCD3 /* b2GearJoint.h */,
+				F9E31C88153E25380037FCD3 /* b2Joint.cpp */,
+				F9E31C89153E25380037FCD3 /* b2Joint.h */,
+				F9E31C8A153E25380037FCD3 /* b2LineJoint.cpp */,
+				F9E31C8B153E25380037FCD3 /* b2LineJoint.h */,
+				F9E31C8C153E25380037FCD3 /* b2MouseJoint.cpp */,
+				F9E31C8D153E25380037FCD3 /* b2MouseJoint.h */,
+				F9E31C8E153E25380037FCD3 /* b2PrismaticJoint.cpp */,
+				F9E31C8F153E25380037FCD3 /* b2PrismaticJoint.h */,
+				F9E31C90153E25380037FCD3 /* b2PulleyJoint.cpp */,
+				F9E31C91153E25380037FCD3 /* b2PulleyJoint.h */,
+				F9E31C92153E25380037FCD3 /* b2RevoluteJoint.cpp */,
+				F9E31C93153E25380037FCD3 /* b2RevoluteJoint.h */,
+				F9E31C94153E25380037FCD3 /* b2WeldJoint.cpp */,
+				F9E31C95153E25380037FCD3 /* b2WeldJoint.h */,
+			);
+			path = Joints;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* ComGooglecodeQuicktigame2d_Prefix.pch in Headers */,
+				F9E31C32153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameView.h in Headers */,
+				F9E31C34153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameViewProxy.h in Headers */,
+				F9E31C36153E25230037FCD3 /* ComGooglecodeQuicktigame2dMapSpriteProxy.h in Headers */,
+				F9E31C38153E25230037FCD3 /* ComGooglecodeQuicktigame2dModule.h in Headers */,
+				F9E31C3A153E25230037FCD3 /* ComGooglecodeQuicktigame2dModuleAssets.h in Headers */,
+				F9E31C3C153E25230037FCD3 /* ComGooglecodeQuicktigame2dParticlesProxy.h in Headers */,
+				F9E31C3E153E25230037FCD3 /* ComGooglecodeQuicktigame2dSceneProxy.h in Headers */,
+				F9E31C40153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteProxy.h in Headers */,
+				F9E31C42153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteSheetProxy.h in Headers */,
+				F9E31C44153E25230037FCD3 /* ComGooglecodeQuicktigame2dTransformProxy.h in Headers */,
+				F9E31C9E153E25380037FCD3 /* Box2D.h in Headers */,
+				F9E31CA0153E25380037FCD3 /* b2BroadPhase.h in Headers */,
+				F9E31CA4153E25380037FCD3 /* b2Collision.h in Headers */,
+				F9E31CA6153E25380037FCD3 /* b2Distance.h in Headers */,
+				F9E31CA8153E25380037FCD3 /* b2DynamicTree.h in Headers */,
+				F9E31CAA153E25380037FCD3 /* b2TimeOfImpact.h in Headers */,
+				F9E31CAC153E25380037FCD3 /* b2CircleShape.h in Headers */,
+				F9E31CAE153E25380037FCD3 /* b2PolygonShape.h in Headers */,
+				F9E31CAF153E25380037FCD3 /* b2Shape.h in Headers */,
+				F9E31CB1153E25380037FCD3 /* b2BlockAllocator.h in Headers */,
+				F9E31CB3153E25380037FCD3 /* b2Math.h in Headers */,
+				F9E31CB5153E25380037FCD3 /* b2Settings.h in Headers */,
+				F9E31CB7153E25380037FCD3 /* b2StackAllocator.h in Headers */,
+				F9E31CB9153E25380037FCD3 /* b2Body.h in Headers */,
+				F9E31CBB153E25380037FCD3 /* b2ContactManager.h in Headers */,
+				F9E31CBD153E25380037FCD3 /* b2Fixture.h in Headers */,
+				F9E31CBF153E25380037FCD3 /* b2Island.h in Headers */,
+				F9E31CC0153E25380037FCD3 /* b2TimeStep.h in Headers */,
+				F9E31CC2153E25380037FCD3 /* b2World.h in Headers */,
+				F9E31CC4153E25380037FCD3 /* b2WorldCallbacks.h in Headers */,
+				F9E31CC6153E25380037FCD3 /* b2CircleContact.h in Headers */,
+				F9E31CC8153E25380037FCD3 /* b2Contact.h in Headers */,
+				F9E31CCA153E25380037FCD3 /* b2ContactSolver.h in Headers */,
+				F9E31CCC153E25380037FCD3 /* b2PolygonAndCircleContact.h in Headers */,
+				F9E31CCE153E25380037FCD3 /* b2PolygonContact.h in Headers */,
+				F9E31CD0153E25380037FCD3 /* b2TOISolver.h in Headers */,
+				F9E31CD2153E25380037FCD3 /* b2DistanceJoint.h in Headers */,
+				F9E31CD4153E25380037FCD3 /* b2FrictionJoint.h in Headers */,
+				F9E31CD6153E25380037FCD3 /* b2GearJoint.h in Headers */,
+				F9E31CD8153E25380037FCD3 /* b2Joint.h in Headers */,
+				F9E31CDA153E25380037FCD3 /* b2LineJoint.h in Headers */,
+				F9E31CDC153E25380037FCD3 /* b2MouseJoint.h in Headers */,
+				F9E31CDE153E25380037FCD3 /* b2PrismaticJoint.h in Headers */,
+				F9E31CE0153E25380037FCD3 /* b2PulleyJoint.h in Headers */,
+				F9E31CE2153E25380037FCD3 /* b2RevoluteJoint.h in Headers */,
+				F9E31CE4153E25380037FCD3 /* b2WeldJoint.h in Headers */,
+				F9E31CE5153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dBodyProxy.hh in Headers */,
+				F9E31CE7153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dRevJointProxy.hh in Headers */,
+				F9E31CE9153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dWorldProxy.hh in Headers */,
+				F9E31CEB153E25380037FCD3 /* TiContactListener.h in Headers */,
+				F92D86091540DDD500981B17 /* ArrayStackQueue.h in Headers */,
+				F92D860D1540DDE000981B17 /* ParticleDataReader.h in Headers */,
+				F92D86231540DDEA00981B17 /* QuickTiGame2dAnimationFrame.h in Headers */,
+				F92D86251540DDEA00981B17 /* QuickTiGame2dConstant.h in Headers */,
+				F92D86261540DDEA00981B17 /* QuickTiGame2dEngine.h in Headers */,
+				F92D86281540DDEA00981B17 /* QuickTiGame2dMapSprite.h in Headers */,
+				F92D862A1540DDEA00981B17 /* QuickTiGame2dParticles.h in Headers */,
+				F92D862C1540DDEA00981B17 /* QuickTiGame2dParticlesTypes.h in Headers */,
+				F92D862D1540DDEA00981B17 /* QuickTiGame2dScene.h in Headers */,
+				F92D862F1540DDEA00981B17 /* QuickTiGame2dSprite.h in Headers */,
+				F92D86311540DDEA00981B17 /* QuickTiGame2dTexture.h in Headers */,
+				F92D86331540DDEA00981B17 /* QuickTiGame2dTransform.h in Headers */,
+				F92D86351540DDEA00981B17 /* QuickTiGame2dUtil.h in Headers */,
+				F9C8739A156263E500EE483B /* QuickTiGame2dTextSprite.h in Headers */,
+				F9C8739F156263F300EE483B /* ComGooglecodeQuicktigame2dTextSpriteProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* quicktigame2dmodule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "quicktigame2dmodule" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = quicktigame2dmodule;
+			productName = quicktigame2dmodule;
+			productReference = D2AAC07E0554694100DB518D /* libComGooglecodeQuicktigame2d.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "quicktigame2dmodule_box2d" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* quicktigame2dmodule */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* quicktigame2dmodule */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E31C33153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameView.m in Sources */,
+				F9E31C35153E25230037FCD3 /* ComGooglecodeQuicktigame2dGameViewProxy.m in Sources */,
+				F9E31C37153E25230037FCD3 /* ComGooglecodeQuicktigame2dMapSpriteProxy.m in Sources */,
+				F9E31C39153E25230037FCD3 /* ComGooglecodeQuicktigame2dModule.m in Sources */,
+				F9E31C3B153E25230037FCD3 /* ComGooglecodeQuicktigame2dModuleAssets.mm in Sources */,
+				F9E31C3D153E25230037FCD3 /* ComGooglecodeQuicktigame2dParticlesProxy.m in Sources */,
+				F9E31C3F153E25230037FCD3 /* ComGooglecodeQuicktigame2dSceneProxy.m in Sources */,
+				F9E31C41153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteProxy.m in Sources */,
+				F9E31C43153E25230037FCD3 /* ComGooglecodeQuicktigame2dSpriteSheetProxy.m in Sources */,
+				F9E31C45153E25230037FCD3 /* ComGooglecodeQuicktigame2dTransformProxy.m in Sources */,
+				F9E31C9F153E25380037FCD3 /* b2BroadPhase.cpp in Sources */,
+				F9E31CA1153E25380037FCD3 /* b2CollideCircle.cpp in Sources */,
+				F9E31CA2153E25380037FCD3 /* b2CollidePolygon.cpp in Sources */,
+				F9E31CA3153E25380037FCD3 /* b2Collision.cpp in Sources */,
+				F9E31CA5153E25380037FCD3 /* b2Distance.cpp in Sources */,
+				F9E31CA7153E25380037FCD3 /* b2DynamicTree.cpp in Sources */,
+				F9E31CA9153E25380037FCD3 /* b2TimeOfImpact.cpp in Sources */,
+				F9E31CAB153E25380037FCD3 /* b2CircleShape.cpp in Sources */,
+				F9E31CAD153E25380037FCD3 /* b2PolygonShape.cpp in Sources */,
+				F9E31CB0153E25380037FCD3 /* b2BlockAllocator.cpp in Sources */,
+				F9E31CB2153E25380037FCD3 /* b2Math.cpp in Sources */,
+				F9E31CB4153E25380037FCD3 /* b2Settings.cpp in Sources */,
+				F9E31CB6153E25380037FCD3 /* b2StackAllocator.cpp in Sources */,
+				F9E31CB8153E25380037FCD3 /* b2Body.cpp in Sources */,
+				F9E31CBA153E25380037FCD3 /* b2ContactManager.cpp in Sources */,
+				F9E31CBC153E25380037FCD3 /* b2Fixture.cpp in Sources */,
+				F9E31CBE153E25380037FCD3 /* b2Island.cpp in Sources */,
+				F9E31CC1153E25380037FCD3 /* b2World.cpp in Sources */,
+				F9E31CC3153E25380037FCD3 /* b2WorldCallbacks.cpp in Sources */,
+				F9E31CC5153E25380037FCD3 /* b2CircleContact.cpp in Sources */,
+				F9E31CC7153E25380037FCD3 /* b2Contact.cpp in Sources */,
+				F9E31CC9153E25380037FCD3 /* b2ContactSolver.cpp in Sources */,
+				F9E31CCB153E25380037FCD3 /* b2PolygonAndCircleContact.cpp in Sources */,
+				F9E31CCD153E25380037FCD3 /* b2PolygonContact.cpp in Sources */,
+				F9E31CCF153E25380037FCD3 /* b2TOISolver.cpp in Sources */,
+				F9E31CD1153E25380037FCD3 /* b2DistanceJoint.cpp in Sources */,
+				F9E31CD3153E25380037FCD3 /* b2FrictionJoint.cpp in Sources */,
+				F9E31CD5153E25380037FCD3 /* b2GearJoint.cpp in Sources */,
+				F9E31CD7153E25380037FCD3 /* b2Joint.cpp in Sources */,
+				F9E31CD9153E25380037FCD3 /* b2LineJoint.cpp in Sources */,
+				F9E31CDB153E25380037FCD3 /* b2MouseJoint.cpp in Sources */,
+				F9E31CDD153E25380037FCD3 /* b2PrismaticJoint.cpp in Sources */,
+				F9E31CDF153E25380037FCD3 /* b2PulleyJoint.cpp in Sources */,
+				F9E31CE1153E25380037FCD3 /* b2RevoluteJoint.cpp in Sources */,
+				F9E31CE3153E25380037FCD3 /* b2WeldJoint.cpp in Sources */,
+				F9E31CE6153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dBodyProxy.mm in Sources */,
+				F9E31CE8153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dRevJointProxy.mm in Sources */,
+				F9E31CEA153E25380037FCD3 /* ComGooglecodeQuicktigame2dBox2dWorldProxy.mm in Sources */,
+				F9E31CEC153E25380037FCD3 /* TiContactListener.mm in Sources */,
+				F92D860A1540DDD500981B17 /* ArrayStackQueue.m in Sources */,
+				F92D860E1540DDE000981B17 /* ParticleDataReader.m in Sources */,
+				F92D86241540DDEA00981B17 /* QuickTiGame2dAnimationFrame.m in Sources */,
+				F92D86271540DDEA00981B17 /* QuickTiGame2dEngine.m in Sources */,
+				F92D86291540DDEA00981B17 /* QuickTiGame2dMapSprite.m in Sources */,
+				F92D862B1540DDEA00981B17 /* QuickTiGame2dParticles.m in Sources */,
+				F92D862E1540DDEA00981B17 /* QuickTiGame2dScene.m in Sources */,
+				F92D86301540DDEA00981B17 /* QuickTiGame2dSprite.m in Sources */,
+				F92D86321540DDEA00981B17 /* QuickTiGame2dTexture.m in Sources */,
+				F92D86341540DDEA00981B17 /* QuickTiGame2dTransform.m in Sources */,
+				F92D86361540DDEA00981B17 /* QuickTiGame2dUtil.m in Sources */,
+				F9C8739B156263E500EE483B /* QuickTiGame2dTextSprite.m in Sources */,
+				F9C873A0156263F300EE483B /* ComGooglecodeQuicktigame2dTextSpriteProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* quicktigame2dmodule */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/ComGooglecodeQuicktigame2d.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComGooglecodeQuicktigame2d_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+					"$(BOX2D)",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComGooglecodeQuicktigame2d;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/ComGooglecodeQuicktigame2d.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComGooglecodeQuicktigame2d_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+					"$(BOX2D)",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComGooglecodeQuicktigame2d;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				BOX2D = "\"$(PROJECT_DIR)/Classes/Box2D\"";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/ComGooglecodeQuicktigame2d.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComGooglecodeQuicktigame2d_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+					"$(BOX2D)",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComGooglecodeQuicktigame2d;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				BOX2D = "\"$(PROJECT_DIR)/Classes/Box2D\"";
+				DSTROOT = /tmp/ComGooglecodeQuicktigame2d.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComGooglecodeQuicktigame2d_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+					"$(BOX2D)",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComGooglecodeQuicktigame2d;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = "$(TITANIUM_BASE_SDK) $(TITANIUM_BASE_SDK2) $(BOX2D)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "quicktigame2dmodule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "quicktigame2dmodule_box2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
